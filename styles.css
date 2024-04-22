@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Pictures/casa\ de\ te.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('Pictures/fondominiom.jpeg');/* Ruta de la imagen de fondo */
     background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evitar la repetición de la imagen */
     background-position: center; /* Centrar la imagen de fondo */
@@ -48,6 +48,11 @@ main {
     box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
 }
 
+.column2 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
+}
 .column:first-child {
     border-right: 1px solid #ccc;
 }
@@ -124,7 +129,7 @@ footer {
     .logo{
         position: relative;
         top: 30px;
-        opacity: 0.9;
+        opacity: 0.7;
     }
 
     .logo2{
@@ -208,5 +213,16 @@ footer {
     
     footer{
       padding: 0px;
+    }
+
+    .column2{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        columns: 2;
+        flex: 100%;
+        position: relative;
+        bottom: 20px;
+        left: 8px;
     }
 }
