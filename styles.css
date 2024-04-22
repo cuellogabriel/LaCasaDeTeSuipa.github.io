@@ -27,13 +27,13 @@ header {
     float: left;
 }
 
-.social-icons {
-    float: right;
-}
+
+
 
 .social-icons img {
     width: 30px;
     margin-left: 10px;
+    
 }
 
 /* Estilos del contenido principal */
@@ -97,15 +97,15 @@ footer {
     .social-icons {
         float: none;
         text-align: center;
-        margin-bottom: 10px;
+
     }
 
     .navbar {
         float: none; 
         position: relative;
-        top: 8px;
+        top: 23px;
         font-size: 30px;
-
+        left: 25px;
     }
 
     .column {
@@ -123,22 +123,27 @@ footer {
 
     .logo{
         position: relative;
-        right: 150px;
-        top: 45px;
+        top: 30px;
+        opacity: 0.9;
+    }
+
+    .logo2{
+        position: relative;
+        bottom: 30px;
+        border-radius: 50%;
     }
 
     .face{
         position: relative;
-        left: 140px;
         border-radius: 50%;
-        top: 5px;
+        left: 20px;
     }
 
     
     .insta{
         position: relative;
-        left: 184px;
-        bottom: 50px;
+        left: 65px;
+        top: 50px;
         border-radius: 50%;
     } 
     
@@ -163,9 +168,9 @@ footer {
     }
 
     .footer-logo{
+        display: flex;
         position: relative;
-        right: 150px;
-        top: 30px;
+        top: 70px;
     }
 
     .ubicasion{
@@ -174,12 +179,12 @@ footer {
         border-radius: 50%;
         width: 50px;
         height: 50px;
-        bottom: 20px;
+        bottom: 40px;
     }
 
     .footer-description{
         position: relative;
-        top: 15px;
+        font-size: 25px;
     }
    
     span{
@@ -187,4 +192,21 @@ footer {
         opacity: 0.7;
     }
     
+    .navs{
+     display: flex;
+     padding: 0%;   
+    }
+   
+    .logoTe{
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        position: relative;
+        bottom: 27px;
+        left: 10px;
+    }
+    
+    footer{
+      padding: 0px;
+    }
 }
