@@ -214,5 +214,66 @@ footer {
         left: 30px;
     }
 
-   
+    .alert{
+        display: none;
+    }
+
+    #backButton{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        overflow: hidden; /* Evitar desplazamiento de la página */
+    }
+
+    /* Ocultar todos los elementos */
+    header, main, footer, .map-location , .column2 {
+        display: none;
+    }
+
+    /* Mostrar solo la imagen de alerta de peligro */
+    .alert {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+        background-repeat: no-repeat; /* Evita la repetición de la imagen */
+        background-position: center; /* Centra la imagen de fondo */
+        background-color: transparent;
+    }
+
+    /* Estilos para el botón */
+/* Estilos para el botón */
+#backButton {
+    background-color: #e42626; /* Color de fondo */
+    border: white 1px solid;
+    color: white; /* Color del texto */
+    padding: 15px 72px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; /* Posición relativa para poder usar z-index */
+    z-index: 1000; /* Valor alto para asegurar que esté por encima del fondo */
+    top: 800px;
+    left: 800px;
+}
+
+/* Cambiar el color de fondo cuando el mouse pasa sobre el botón */
+#backButton:hover {
+    background-color: #45a049;
+}
+
+/* Cambiar el color de fondo cuando el botón está presionado */
+#backButton:active {
+    background-color: #3e8e41;
+}
 }
