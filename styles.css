@@ -108,7 +108,7 @@ footer {
     .navbar {
         float: none; 
         position: relative;
-        top: 23px;
+        top: 29px;
         font-size: 30px;
         left: 25px;
     }
@@ -147,7 +147,7 @@ footer {
     .insta{
         position: relative;
         left: 65px;
-        top: 50px;
+        top: 60px;
         border-radius: 50%;
     } 
     
