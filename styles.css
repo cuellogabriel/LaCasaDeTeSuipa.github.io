@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Pictures/fondo3.jpeg');/* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
-    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
-    background-position: center; /* Centrar la imagen de fondo */
-    background-color: transparent; /* Fondo transparente para mostrar la imagen */
+    background-image: url('Pictures/fondo3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
 }
 
 /* Estilos del header */
@@ -20,41 +20,27 @@ header {
 
 .navbar {
     text-align: center;
-   
 }
 
 .logo {
     float: left;
 }
 
-
-
-
 .social-icons img {
     width: 30px;
     margin-left: 10px;
-    
 }
 
 /* Estilos del contenido principal */
 main {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos fluyan a una nueva línea en dispositivos pequeños */
+    flex-wrap: wrap;
 }
 
 .column {
     flex: 1;
     padding: 20px;
-    box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
-}
-
-.column2 {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
-}
-.column:first-child {
-    border-right: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 /* Estilos del footer */
@@ -70,14 +56,13 @@ footer {
 .product {
     margin-bottom: 5px;
     display: flex;
-    justify-content: space-between; /* Espaciado entre los elementos */
+    justify-content: space-between;
 }
 
 .product h2 {
-    border-bottom: 5px solid #ccc; /* Línea subrayada debajo de los títulos */
-    padding-bottom: 10px; /* Espaciado entre el título y los productos */
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
 }
-
 
 .product h3 {
     margin-right: 10px;
@@ -94,7 +79,7 @@ footer {
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 800px) {
     .column:first-child img {
-        width: 150px; /* Redimensiona las imágenes a 150x150 píxeles */
+        width: 150px;
         height: 150px;
     }
 
@@ -102,11 +87,10 @@ footer {
     .social-icons {
         float: none;
         text-align: center;
-
     }
 
     .navbar {
-        float: none; 
+        float: none;
         position: relative;
         top: 29px;
         font-size: 30px;
@@ -114,46 +98,44 @@ footer {
     }
 
     .column {
-        flex: 100%; /* El contenido se extiende por toda la anchura en dispositivos pequeños */
+        flex: 100%;
     }
 
     .price {
-        padding: 3px 8px; /* Reducción del tamaño del botón de precios */
+        padding: 3px 8px;
         width: 40px;
         height: 15px;
         position: relative;
         bottom: 3px;
-        
     }
 
-    .logo{
+    .logo {
         position: relative;
         top: 30px;
     }
 
-    .logo2{
+    .logo2 {
         position: relative;
         bottom: 30px;
         border-radius: 50%;
     }
 
-    .face{
+    .face {
         position: relative;
         border-radius: 50%;
-        left: 20px;
+        left: 30px;
     }
 
-    
-    .insta{
+    .insta {
         position: relative;
-        left: 65px;
+        left: 75px;
         top: 60px;
         border-radius: 50%;
-    } 
-    
+    }
+
     h2 {
-        border-bottom: 1px solid #050000; /* Línea subrayada debajo de los títulos */
-        padding-bottom: 20px; /* Espaciado entre el título y los productos */
+        border-bottom: 1px solid #050000;
+        padding-bottom: 20px;
         position: relative;
         top: 5px;
         padding: 1px;
@@ -163,11 +145,11 @@ footer {
         width: 250px;
     }
 
-    h3{
+    h3 {
         margin: 1px;
     }
-    
-    .imagenesTotal{
+
+    .imagenesTotal {
         position: relative;
         left: 4px;
         margin: 6px;
@@ -175,13 +157,13 @@ footer {
         padding: 2px;
     }
 
-    .footer-logo{
+    .footer-logo {
         display: flex;
         position: relative;
         top: 70px;
     }
 
-    .ubicasion{
+    .ubicasion {
         position: relative;
         left: 150px;
         border-radius: 50%;
@@ -190,23 +172,23 @@ footer {
         bottom: 40px;
     }
 
-    .footer-description{
+    .footer-description {
         position: relative;
         font-size: 25px;
     }
-   
-    span{
+
+    span {
         background-color: rgba(51, 51, 51, 0.7);
         opacity: 0.7;
         top: 3px;
     }
-    
-    .navs{
-     display: flex;
-     padding: 0%;   
+
+    .navs {
+        display: flex;
+        padding: 0%;
     }
-   
-    .logoTe{
+
+    .logoTe {
         border-radius: 50%;
         width: 55px;
         height: 55px;
@@ -214,70 +196,21 @@ footer {
         bottom: 27px;
         left: 10px;
     }
-    
-    footer{
-      padding: 0px;
+
+    footer {
+        padding: 0px;
     }
 
-    .column2{
+    .column2 {
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         columns: 2;
         flex: 100%;
         position: relative;
-        bottom: 20px;
-        left: 8px;
+        bottom: 30px;
+        left: 30px;
     }
 
-    .esprimido{
-        position: relative;
-        bottom: 2635px;
-        left: 315px;
-        border-radius: 50%;
-        opacity: 0.7;
-        width: 40px;
-        height: 40px;
-    }
-
-    .cafe{
-        position: relative;
-        bottom: 2154px;
-        left: 271px;
-        border-radius: 50%;
-        opacity: 0.7;
-        width: 40px;
-        height: 40px;
-    }
-
-    .medialuna{
-        position: relative;
-        bottom: 1674px;
-        left: 225px;
-        border-radius: 50%;
-        opacity: 0.7;
-        width: 40px;
-        height: 40px;
-    }
-
-    .sandwich{
-        position: relative;
-        bottom: 1210px;
-        left: 181px;
-        border-radius: 50%;
-        opacity: 0.7;
-        width: 40px;
-        height: 40px;
-    }
-    
-    .torta{
-        position: relative;
-        bottom: 724px;
-        left: 136px;
-        border-radius: 50%;
-        opacity: 0.7;
-        width: 40px;
-        height: 40px;
-    }
-
+   
 }
