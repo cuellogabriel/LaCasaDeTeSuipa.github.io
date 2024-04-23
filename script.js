@@ -2,7 +2,7 @@
 const categorias = [
     "Bebidas Frías",
     "Bebidas Calientes",
-    "Delicatessen",
+    "Desayuno/Merienda",
     "Salado",
     "Tortas"
 ];
@@ -10,28 +10,83 @@ const categorias = [
 // Array de productos por categoría
 const productos = {
     "Bebidas Frías": [
-        { nombre: "Coca-Cola", precio: "$2.50" },
-        { nombre: "Jugo de Naranja", precio: "$3.00" },
+        { nombre: "Frappuccino de Dulce de leche", precio: "$0" },
+        { nombre: "Frappuccino de Oreo", precio: "$0" },
+        { nombre: "Frappuccino de Vainilla y Caramelo" , precio: "$0"},
+        { nombre: "Frappuccino de Chocolate" , precio: "$0"},
+        { nombre: "Frappuccino de Frutilla" , precio: "$0"},
+        { nombre: "Gaseosas" , precio: "$0"},
+        { nombre: "Agua/Agua con Gas" , precio: "$0"},
+        { nombre: "Agua Saborizada" , precio: "$0"},
+        { nombre: "Exprimido" , precio: "$0"},
+        { nombre: "Limonada" , precio: "$0" },
+        { nombre: "Licuado De Banana" , precio: "$0" },
+        { nombre: "Licuado con Frutas de Estacion" , precio: "$0" },
         // Agrega más productos aquí
     ],
     "Bebidas Calientes": [
-        { nombre: "Café", precio: "$1.50" },
-        { nombre: "Té", precio: "$1.00" },
+        { nombre: "Expresso Chico/Grande", precio: "$0" },
+        { nombre: "Cafe Con Leche", precio: "$0" },
+        { nombre: "Te En Saquito/Hebras" , precio: "$0" },
+        { nombre: "Cappucchino" , precio: "$0" },
+        { nombre: "Cappucchino Con Dulce De Leche" , precio: "$0" },
+        { nombre: "Lagrima" , precio: "$0" },
+        { nombre: "Cortado" , precio: "$0" },
+        { nombre: "Moka" , precio: "$0" },
+        { nombre: "Moka De Chocolate" , precio: "$0" },
+        { nombre: "Caramel Machiatto: Caramelo/Cafe/Leche y Vainilla" , precio: "$0" },
+        { nombre: "Coffie Nut: Cortado Con Nutela" , precio: "$0" },
+        { nombre: "Submarino" , precio: "$0" },
         // Agrega más productos aquí
     ],
-    "Delicatessen": [
-        { nombre: "Sandwich de Pollo", precio: "$5.00" },
-        { nombre: "Ensalada César", precio: "$4.50" },
+    "Desayuno/Merienda": [
+        { nombre: "Tostadas: Mermelada/Queso/Manteca", precio: "$0" },
+        { nombre: "Alfajores", precio: "$0" },
+        { nombre: "Muffins", precio: "$0" },
+        { nombre: "Cuadrados", precio: "$0" },
+        { nombre: "Cookies", precio: "$0" },
+        { nombre: "Pepas", precio: "$0" },
+        { nombre: "Alfajores De Maicena", precio: "$0" },
+        { nombre: "Pastaflora", precio: "$0" },
+        { nombre: "MediaLunas", precio: "$0" },
+        { nombre: "Opciones Sin Tacc", precio: "$0" },
+        { nombre: "Waffles", precio: "$0" },
+        { nombre: "Yogurt Con Granola", precio: "$0" },
+        { nombre: "Hotcake", precio: "$0" },
         // Agrega más productos aquí
     ],
     "Salado": [
-        { nombre: "Pizza de Pepperoni", precio: "$8.00" },
-        { nombre: "Hamburguesa Clásica", precio: "$6.50" },
+        { nombre: "Tostado(Opcional Papas Fritas)", precio: "$0" },
+        { nombre: "Medialuna Rellena", precio: "$0" },
+        { nombre: "Focacchia Rellena", precio: "$0" },
+        { nombre: "Scones De Queso Relleno", precio: "$0" },
+        { nombre: "Trenza Judia", precio: "$0" },
+        { nombre: "Tipo Bagels", precio: "$0" },
+        { nombre: "Brusquetas", precio: "$0" },
+        { nombre: "Fosforitos", precio: "$0" },
+        { nombre: "Avocado Con Huevo Revuelto y Palta", precio: "$0" },
+        { nombre: "Lomito Completo", precio: "$0" },
+        { nombre: "Tartas", precio: "$0" },
+        { nombre: "Ensaladas", precio: "$0" },
+        { nombre: "Cremona Rellena", precio: "$0" },
         // Agrega más productos aquí
     ],
     "Tortas": [
-        { nombre: "Torta de Chocolate", precio: "$4.00" },
-        { nombre: "Torta de Zanahoria", precio: "$3.50" },
+        { nombre: "Matilda", precio: "$0" },
+        { nombre: "Red Velvet", precio: "$0" },
+        { nombre: "Tiramisu", precio: "$0" },
+        { nombre: "Lemon Pie", precio: "$0" },
+        { nombre: "Moka", precio: "$0" },
+        { nombre: "Selva Negra", precio: "$0" },
+        { nombre: "Rogel", precio: "$0" },
+        { nombre: "Torta Bombom", precio: "$0" },
+        { nombre: "Manzana(Opcional Bocha de Helado)", precio: "$0" },
+        { nombre: "Brownie(Opcional Bocha de Helado)", precio: "$0" },
+        { nombre: "Cheesecake", precio: "$0" },
+        { nombre: "Carrot Cake", precio: "$0" },
+        { nombre: "Banana Split", precio: "$0" },
+        { nombre: "Chocotorta", precio: "$0" },
+
         // Agrega más productos aquí
     ],
 };
