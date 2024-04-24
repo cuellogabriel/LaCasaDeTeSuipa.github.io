@@ -87,6 +87,8 @@ footer {
     .social-icons {
         float: none;
         text-align: center;
+        position: relative;
+        left: 20px;
     }
 
     .navbar {
@@ -118,17 +120,17 @@ footer {
         position: relative;
         bottom: 30px;
         border-radius: 50%;
+        right: 20px;
     }
 
     .face {
         position: relative;
         border-radius: 50%;
-        left: 30px;
     }
 
     .insta {
         position: relative;
-        left: 75px;
+        left: 43px;
         top: 60px;
         border-radius: 50%;
     }
