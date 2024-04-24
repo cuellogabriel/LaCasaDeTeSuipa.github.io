@@ -85,10 +85,14 @@ footer {
 
     .logo,
     .social-icons {
-        float: none;
-        text-align: center;
+        
+       
         position: relative;
         left: 20px;
+    }
+    
+    nav{
+    width: 380px;
     }
 
     .navbar {
