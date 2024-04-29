@@ -4,44 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú Digital</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navs">
-            <div class="logo"><img class="logo2" src="Pictures/logo.JPG" alt=""></div>
-            <div class="navbar">Menu Digital</div>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/casadetecv/"><img class="insta" src = "Pictures/intagram4.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/celeste.vallone"><img class="face" src="Pictures/facebook.png" alt="Facebook"></a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="column">
-            <img class="imagenesTotal" src="Pictures/martina-1.jpg" alt="Imagen 2">
-            <img class="imagenesTotal" src="Pictures/Martina-4.jpg" alt="Imagen 2">
-            <!-- Aquí se pueden agregar más imágenes -->
+
+<header>
+    <div class="logo">
+        <img src="./Pictures/logo.JPG" alt="Logo">
+    </div>
+    <div class="menu-title">
+        <h1>Menú Digital</h1>
+    </div>
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://www.instagram.com/casadetecv/" target="_blank"><img src="./Pictures/intagram4.png" alt="Instagram"></a>
         </div>
-        <div class="column">
-           <!-- Aquíse automatizan los prudctos -->
+        <div class="social-icon">
+            <a href="https://www.facebook.com/celeste.vallone" target="_blank"><img src="./Pictures/facebook.png" alt="Facebook"></a>
         </div>
-    </main>
-    <section>
-        <div class="column2">
-            <img class="imagenesTotal" src="Pictures/Martina-2.jpg" alt="Imagen 2">
-            <img class="imagenesTotal" src="Pictures/Martina-3.jpg" alt="Imagen 2">
+    </div>
+</header>
+
+<div class="arriva">
+    <img class="slice-image" src="./Pictures/martina-1.jpg" alt="">
+    <img class="slice-image" src="./Pictures/Martina-4.jpg" alt="">
+    <img class="slice-image" src="./Pictures/Martina-3.jpg" alt="">
+    <img class="slice-image" src="./Pictures/Martina-2.jpg" alt="">
+</div>
+
+<main>
+    <section class="category" id="bebidas frías">
+        <div class="category-title">
+            <h2>Bebidas Frias<img class="icono1" src="./Pictures/Bebidas Frias.jpg" alt="Icono"> </h2>
+            <span class="toggle">-</span>
+        </div>
+        <div class="products">
+            <!-- Aquí se agregarán los productos de guarniciones -->
         </div>
     </section>
-    <img class="alert" src="Pictures/desktop.JPG" alt="">
-  <button id="backButton">Click</button>
-    <footer>
-        <div class="footer-logo"><img class="logoTe" src="Pictures/logoTe.png" alt=""></div>
-        <div class="footer-description">Casa De Te</div>
-        <div class="map-location">
-            <a href="https://www.google.com/maps/dir//Casa+de+T%C3%A9+%7C+Celeste+Vallone,+C%C3%B3rdoba+298,+B6612+Suipacha,+Provincia+de+Buenos+Aires/@-34.7667351,-59.6905162,16.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bc05ebe81622b7:0x98841da2ba1ff1cd!2m2!1d-59.6892561!2d-34.767121?hl=es&entry=ttu"><img class="ubicasion" src="Pictures/googlemap.png" alt="Ubicasion"></a>
+    <section class="category" id="bebidas calientes">
+        <div class="category-title">
+            <h2>Bebidas Calientes<img class="icono2" src="./Pictures/bebidas calientes.jpg" alt="Icono"> </h2>
+            <span class="toggle">-</span>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        <div class="products">
+            <!-- Aquí se agregarán los productos de ensaladas -->
+        </div>
+    </section>
+    <section class="category" id="desayuno/merienda">
+        <div class="category-title">
+            <h2>Desayuno-Merienda<img class="icono3" src="./Pictures/desayuno-merienda.png" alt="Icono"> </h2>
+            <span class="toggle">-</span>
+        </div>
+        <div class="products">
+            <!-- Aquí se agregarán los productos de pastas -->
+        </div>
+    </section>
+    <section class="category" id="salado">
+        <div class="category-title">
+            <h2>Salado<img class="icono4" src="./Pictures/salado.jpeg" alt="Icono"> </h2>
+            <span class="toggle">-</span>
+        </div>
+        <div class="products">
+            <!-- Aquí se agregarán los productos de bebidas -->
+        </div>
+    </section>
+    <section class="category" id="tortas">
+        <div class="category-title">
+            <h2>Tortas<img class="icono5" src="./Pictures/tortas.jpg" alt="Icono"> </h2>
+            <span class="toggle">-</span>
+        </div>
+        <div class="products">
+            <!-- Aquí se agregarán los productos de postres -->
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-left">
+        <img src="./Pictures/logo.JPG" alt="Footer Logo">
+    </div>
+    <div class="footer-description">
+        <p> @2024 Casa De Te.</p>
+    </div>
+    <div class="footer-location">
+        <a href="https://www.google.com/maps/dir//Casa+de+T%C3%A9+%7C+Celeste+Vallone,+C%C3%B3rdoba+298,+B6612+Suipacha,+Provincia+de+Buenos+Aires/@-34.7667351,-59.6905162,16.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bc05ebe81622b7:0x98841da2ba1ff1cd!2m2!1d-59.6892561!2d-34.767121?hl=es&entry=ttu" target="_blank">
+            <img src="./Pictures/googlemap.png" alt="Google Maps">
+        </a>
+    </div>
+</footer>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>

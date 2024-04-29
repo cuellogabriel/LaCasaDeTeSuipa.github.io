@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Pictures/fondo3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+h2{
+    background-color: rgba(255, 253, 253, 0.932);
+    opacity: 0.9;
+}
+
+.icono1{
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    opacity: 0.8;
+    top: 3px;
+}
+
+.icono2{
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    top: 3px;
+}
+
+.icono3{
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+    top: 3px;
+}
+
+.icono4{
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    top: 3px;
+}
+
+.icono5{
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    top: 3px;
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.menu-title {
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 10px;
+    min-height: calc(100vh - 120px); /* Ajusta el valor según sea necesario */
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-title img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.products p {
+    position: relative;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.products p span {
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 13px;
+    vertical-align: 0.2em;
+    top: -3px;
+    opacity: 0.8;
+}
+
+.toggle {
+    cursor: pointer;
+    font-size: 2em;
+}
+
+p{
+    position: relative;
+    bottom: 8px;
+}
+
+/* Estilos para vista móvil */
+@media (min-width: 768px) {
+    
+    .social-icons {
+        margin-right: 10px;
+    }
+
+    .products {
+        display: block;
+    }
+
+    .logo{
+        border-radius: 50%;
+    }
+    
+
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    opacity: 0.9;
+}
+
+.footer-left img {
+    position: relative;
+    width: 55px;
+    border-radius: 50%;
+    top: 2px;
+}
+
+.footer-description {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    top: 8px;
+    position: relative;
+}
+
+.footer-location {
+    display: flex;
+    align-items: center;
+}
+
+.footer-location img {
+    position: relative;
+    width: 50px;
+    border-radius: 50%;
+    left: 10px;
+}
+
+.category-title h2{
+    border-radius: 8px;
+    border-bottom: 1px solid black;
+}
+
+.arriva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.slice-image {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* El alto se ajustará automáticamente para mantener la proporción */
+    border-radius: 10px;
+}

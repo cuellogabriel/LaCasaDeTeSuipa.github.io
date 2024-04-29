@@ -135,8 +135,5 @@ document.addEventListener('DOMContentLoaded', function() {
         // Aquí maneja la acción según lo que desees hacer
         // Para volver a la página anterior
         window.close();
-
-        // O para cerrar la ventana actual
-        // window.close();
     });
 });
