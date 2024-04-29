@@ -122,3 +122,22 @@ document.addEventListener('DOMContentLoaded', function() {
         sliceImages[currentIndex].style.display = 'block';
     }, 5000); // Cambiar de imagen cada 10 segundos (5000 milisegundos)
 });
+
+const slice = document.querySelector('.slice');
+const images = slice.querySelectorAll('img');
+
+let currentIndex = 0;
+
+setInterval(() => {
+    const nextIndex = (currentIndex + 1) % images.length;
+
+    images[currentIndex].classList.add('left');
+    images[nextIndex].classList.add('right');
+
+    setTimeout(() => {
+        images[currentIndex].classList.remove('left');
+        images[nextIndex].classList.remove('right');
+    }, 500);
+
+    currentIndex = nextIndex;
+}, 5000);
