@@ -128,12 +128,21 @@ function agregarContenido() {
 // Llamada a la función para agregar contenido al cargar la página
 agregarContenido();
 
-document.addEventListener('DOMContentLoaded', function() {
-    const backButton = document.getElementById('backButton');
+const slice = document.querySelector('.slice');
+const images = slice.querySelectorAll('img');
 
-    backButton.addEventListener('click', function() {
-        // Aquí maneja la acción según lo que desees hacer
-        // Para volver a la página anterior
-        window.close();
-    });
-});
+let currentIndex = 0;
+
+setInterval(() => {
+    const nextIndex = (currentIndex + 1) % images.length;
+
+    images[currentIndex].classList.add('left');
+    images[nextIndex].classList.add('right');
+
+    setTimeout(() => {
+        images[currentIndex].classList.remove('left');
+        images[nextIndex].classList.remove('right');
+    }, 500);
+
+    currentIndex = nextIndex;
+}, 5000);
