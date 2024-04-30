@@ -209,3 +209,18 @@ footer {
     height: auto; /* El alto se ajustará automáticamente para mantener la proporción */
     border-radius: 10px;
 }
+
+.admin-link{
+    position: relative;
+    text-align: center;
+    background-color: #333;
+    width: 100px;
+    opacity: 0.8;
+    left: 140px;
+}
+
+.admin{
+    font-size: large;
+    color: white;
+    opacity: none;
+}
